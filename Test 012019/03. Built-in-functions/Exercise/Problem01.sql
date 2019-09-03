@@ -1,5 +1,5 @@
--- Problem 01.
-SELECT FirstName,
-       LastName
+SELECT 
+	FirstName
+	,LastName
 FROM Employees
-WHERE LOWER(FirstName) LIKE '%sa';
+WHERE FirstName Like 'SA%'

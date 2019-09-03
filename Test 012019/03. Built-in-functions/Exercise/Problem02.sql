@@ -1,5 +1,6 @@
--- Problem 02
-SELECT FirstName,
-       LastName
+--Problem 02
+SELECT 
+	FirstName
+	,LastName
 FROM Employees
-WHERE LastName LIKE '%ei%';
+WHERE LastName LIKE '%EI%'

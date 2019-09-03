@@ -1,6 +1,8 @@
---Problem 07
-SELECT [TownID],
-       [Name]
+-- Problem 07
+SELECT 
+	TownID
+	,[Name]
 FROM Towns
-WHERE [Name] LIKE '[^rbd]%'
-ORDER BY [Name];
+WHERE[NAME]NOT LIKE '[rbd]%'
+--WHERE [Name] LIKE '[^rbd]%'
+ORDER BY [Name]

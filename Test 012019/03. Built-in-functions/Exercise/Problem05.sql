@@ -1,5 +1,6 @@
 --Problem 05
-SELECT [Name]
+SELECT 
+	[Name]
 FROM Towns
-WHERE LEN([Name]) BETWEEN 5 AND 6
-ORDER BY [Name] ASC
+WHERE LEN([Name]) IN (5,6)
+ORDER BY [NAME]

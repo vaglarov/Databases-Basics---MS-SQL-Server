@@ -1,6 +1,7 @@
 --Problem 06
-SELECT [TownID],
-       [Name]
+SELECT 
+	TownID
+	,[Name]
 FROM Towns
-WHERE [Name] LIKE '[mkbe]%'
-ORDER BY [Name]
+WHERE [Name] LIKE '[MKBE]%'
+ORDER BY [NAME]

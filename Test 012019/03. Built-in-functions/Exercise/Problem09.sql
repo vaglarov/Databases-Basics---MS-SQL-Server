@@ -1,4 +1,6 @@
 --Problem 09
-SELECT FirstName, LastName
+SELECT
+	FirstName
+	,LastName
 FROM Employees
-WHERE LEN(LastName) = 5
+WHERE LEN(LastName)= 5

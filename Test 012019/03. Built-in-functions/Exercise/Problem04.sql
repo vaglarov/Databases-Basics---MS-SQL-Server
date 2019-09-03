@@ -1,5 +1,6 @@
--- Problem 04.
-SELECT FirstName,
-       LastName
+--Problem 04
+SELECT 
+	FirstName
+	,LastName
 FROM Employees
-WHERE JobTitle NOT LIKE '%engineer%';
+WHERE JobTitle NOT LIKE '%engineer%'
