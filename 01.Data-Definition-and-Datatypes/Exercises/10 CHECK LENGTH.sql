@@ -1,0 +1,3 @@
+--Problem 10 CHECK LENGTH
+		ALTER TABLE Users
+		ADD CONSTRAINT [Password] CHECK ( DATALENGTH([Password])>=5)
