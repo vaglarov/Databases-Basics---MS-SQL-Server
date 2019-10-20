@@ -1,0 +1,7 @@
+SELECT TOP 5
+	C.Name
+	,COUNT(C.Name) AS [REPORT NUMBER]
+	FROM Reports AS R
+	LEFT JOIN Categories AS C ON R.CategoryId=C.Id
+	GROUP BY C.Name
+	ORDER BY [REPORT NUMBER] DESC,C.Name
